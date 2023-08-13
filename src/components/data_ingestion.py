@@ -29,6 +29,8 @@ class DataIngestion:
             df.to_csv(self.raw_data,index=False,header=True)
             logging.info("All csv's have been saved to artifacts")
             logging.info("Data ingestion is completed successfully")
+        
+            return self.train_path,self.test_path
 
         except Exception as e:
             raise CustomException(e,sys)
