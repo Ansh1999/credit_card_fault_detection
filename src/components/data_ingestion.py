@@ -15,7 +15,7 @@ class DataIngestion:
     def initiate_ingestion(self):
         logging.info("Ingestion has initiated")
         try:
-            df = pd.read_csv('notebook/data/kc_house_data.csv')
+            df = pd.read_csv('notebook/data/UCI_Credit_Card.csv')
             logging.info("Data is read successfuly...!!")
 
             path = os.path.join(os.getcwd(),'artifacts')
@@ -34,3 +34,6 @@ class DataIngestion:
 
         except Exception as e:
             raise CustomException(e,sys)
+        
+obj = DataIngestion()
+obj.initiate_ingestion()
