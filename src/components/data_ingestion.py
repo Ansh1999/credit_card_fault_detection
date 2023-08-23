@@ -18,6 +18,13 @@ class DataIngestion:
             df = pd.read_csv('notebook/data/UCI_Credit_Card.csv')
             logging.info("Data is read successfuly...!!")
 
+            df = df.iloc[:,1:]  ## To eleminate ID from the DataFrame.
+            df.rename(columns={
+                                'PAY_0':'PAY_1',
+                               'default.payment.next.month':'DEFAULT_PAYMENT_NEXT_MONTH'
+                            },
+                      inplace=True) ## To maintain the naming sequence.
+
             path = os.path.join(os.getcwd(),'artifacts')
             os.makedirs(path,exist_ok=True)
 
@@ -35,5 +42,7 @@ class DataIngestion:
         except Exception as e:
             raise CustomException(e,sys)
         
-obj = DataIngestion()
-obj.initiate_ingestion()
+if __name__=="__main__":
+    
+    obj = DataIngestion()
+    obj.initiate_ingestion()

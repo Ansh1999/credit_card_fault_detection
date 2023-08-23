@@ -1,0 +1,6 @@
+[2023-08-23 14:20:20,998] [187] werkzeug - WARNING -  * Debugger is active!
+[2023-08-23 14:20:21,011] [187] werkzeug - INFO -  * Debugger PIN: 120-112-887
+[2023-08-23 14:20:31,421] [187] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2023 14:20:31] "POST /predict_datapoint HTTP/1.1" 200 -
+[2023-08-23 14:21:44,403] [187] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2023 14:21:44] "POST /predict_datapoint HTTP/1.1" 200 -
+[2023-08-23 14:21:54,204] [187] werkzeug - INFO - 127.0.0.1 - - [23/Aug/2023 14:21:54] "POST /predict_datapoint HTTP/1.1" 200 -
+[2023-08-23 14:23:57,475] [187] werkzeug - INFO -  * Detected change in '/Users/anshulmehra/credit_card_fault_detection/app.py', reloading

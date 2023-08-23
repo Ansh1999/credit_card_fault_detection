@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Input User Data</h2>
+        <form action="{{ url_for('predict_datapoint')}}" method="POST">
+
+            <label for="LIMIT_BAL">LIMIT_BAL:</label>
+            <input type="number" name="LIMIT_BAL" required><br>
+
+            <label for="SEX">SEX:</label>
+            <select name="SEX" required>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select><br>
+
+            <label for="EDUCATION">EDUCATION:</label>
+            <select name="EDUCATION" required>
+                <option value="1">Graduate School</option>
+                <option value="2">University</option>
+                <option value="3">High School</option>
+                <option value="4">Others</option>
+            </select><br>
+
+            <label for="MARRIAGE">MARRIAGE:</label>
+            <select name="MARRIAGE" required>
+                <option value="1">Married</option>
+                <option value="2">Single</option>
+                <option value="3">Others</option>
+            </select><br>
+
+            <!-- Add the remaining input fields here -->
+
+            <label for="PAY_1">PAY_1:</label>
+            <input type="number" name="PAY_1" required><br>
+
+            <label for="PAY_2">PAY_2:</label>
+            <input type="number" name="PAY_2" required><br>
+
+            <label for="PAY_3">PAY_3:</label>
+            <input type="number" name="PAY_3" required><br>
+
+            <label for="PAY_4">PAY_4:</label>
+            <input type="number" name="PAY_4" required><br>
+
+            <label for="PAY_5">PAY_5:</label>
+            <input type="number" name="PAY_5" required><br>
+
+            <label for="PAY_6">PAY_6:</label>
+            <input type="number" name="PAY_6" required><br>
+
+            <label for="BILL_AMT1">BILL_AMT1:</label>
+            <input type="number" name="BILL_AMT1" required><br>
+
+            <label for="BILL_AMT2">BILL_AMT2:</label>
+            <input type="number" name="BILL_AMT2" required><br>
+
+            <label for="BILL_AMT3">BILL_AMT3:</label>
+            <input type="number" name="BILL_AMT3" required><br>
+
+            <label for="BILL_AMT4">BILL_AMT4:</label>
+            <input type="number" name="BILL_AMT4" required><br>
+
+            <label for="BILL_AMT5">BILL_AMT5:</label>
+            <input type="number" name="BILL_AMT5" required><br>
+
+            <label for="BILL_AMT6">BILL_AMT6:</label>
+            <input type="number" name="BILL_AMT6" required><br>
+
+            <label for="PAY_AMT1">PAY_AMT1:</label>
+            <input type="number" name="PAY_AMT1" required><br>
+
+            <label for="PAY_AMT2">PAY_AMT2:</label>
+            <input type="number" name="PAY_AMT2" required><br>
+
+            <label for="PAY_AMT3">PAY_AMT3:</label>
+            <input type="number" name="PAY_AMT3" required><br>
+
+            <label for="PAY_AMT4">PAY_AMT4:</label>
+            <input type="number" name="PAY_AMT4" required><br>
+
+            <label for="PAY_AMT5">PAY_AMT5:</label>
+            <input type="number" name="PAY_AMT5" required><br>
+
+            <label for="PAY_AMT6">PAY_AMT6:</label>
+            <input type="number" name="PAY_AMT6" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
