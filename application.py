@@ -4,7 +4,8 @@ import numpy as np
 from src.pipeline import predict_pipeline
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 
 @app.route('/')
 def index():
@@ -41,4 +42,4 @@ def predict_datapoint():
         return render_template('result.html',results=predicted)
 
 
-app.run(debug=True,host='0.0.0.0',port=8080)
+app.run(debug=True,host='0.0.0.0',port=5000)
