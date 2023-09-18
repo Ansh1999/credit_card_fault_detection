@@ -60,7 +60,7 @@ The project is organized as follows:
 1. **Clone the Repository:**
 
    ```
-   git clone [https://github.com/Ansh1999/credit_card_fault_detection.git](https://github.com/Ansh1999/credit_card_fault_detection.git)
+   git clone https://github.com/Ansh1999/credit_card_fault_detection.git
    cd credit-card-default-prediction
    ```
 2. **Install Dependencies:**
