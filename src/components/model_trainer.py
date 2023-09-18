@@ -33,7 +33,7 @@ class inititate_model_training():
                         "Decision Tree": DecisionTreeClassifier(),
                         "Gausian Naive Bayes": GaussianNB(),
                         "Bernoulli Naive Bayes": BernoulliNB(),
-                        "Xgboost": XGBClassifier(),
+                        #"Xgboost": XGBClassifier(),
                         "Random Forest": RandomForestClassifier(),
                         "Ada Boost": AdaBoostClassifier(),
                         "Gradient Boosting": GradientBoostingClassifier() 
@@ -68,13 +68,13 @@ class inititate_model_training():
                                                 'alpha': [0.1, 0.5, 1.0],
                                                 'binarize': [None, 0.0, 0.5],
                         },      
-                        "Xgboost": {
-                                    'n_estimators': [50, 100, 150],
-                                    'learning_rate': [0.1, 0.01, 0.001],   
-                                    'max_depth': [3, 5, 7],               
-                                    'subsample': [0.8, 1.0],               
-                                    'colsample_bytree': [0.8, 1.0]
-                        },
+                        #"Xgboost": {
+                        #            'n_estimators': [50, 100, 150],
+                        #            'learning_rate': [0.1, 0.01, 0.001],   
+                        #            'max_depth': [3, 5, 7],               
+                        #            'subsample': [0.8, 1.0],               
+                        #            'colsample_bytree': [0.8, 1.0]
+                       # },
                         "Random Forest": {
                                             'n_estimators': [50, 100, 150], 
                                             'max_depth': [None, 10, 20, 30],          
