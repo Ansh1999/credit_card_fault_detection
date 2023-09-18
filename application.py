@@ -42,4 +42,4 @@ def predict_datapoint():
         return render_template('result.html',results=predicted)
 
 
-app.run(host='127.0.0.1',port=5000)
+app.run(host='127.0.0.1')
