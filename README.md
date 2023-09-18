@@ -26,6 +26,8 @@ The project is organized as follows:
   - **test.csv**: Test dataset file.
   - **train.csv**: Training dataset file.
 - **notebook**: Directory containing Jupyter notebooks.
+  - **data**: Directory for Credit Card dataset in csv format.
+    - **UCI_Credit_Card.csv**: Dataset 
   - **EDA_Credit_Card.ipynb**: Notebook for exploratory data analysis.
 - **src**: Source code directory.
   - **components**: Directory for project components.
@@ -58,7 +60,7 @@ The project is organized as follows:
 1. **Clone the Repository:**
 
    ```bash
-   git clone [https://github.com/Ansh1999/credit_card_fault_detection.git]
+   git clone [https://github.com/Ansh1999/credit_card_fault_detection.git](https://github.com/Ansh1999/credit_card_fault_detection.git)
    cd credit-card-default-prediction
 
 2. **Install Dependencies:**
@@ -102,7 +104,7 @@ You can use the deployed web application to make predictions on whether a credit
 Contributions to improve this project are welcome! Please follow common open-source practices and create a pull request with your proposed changes.
 
 ## Acknowledgments
-* The dataset was provided by Kaggle and can be found at [https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset].
+* The dataset was provided by Kaggle and can be found at [https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).
 * We acknowledge the UCI Machine Learning Repository for hosting and curating the dataset.
 * Please refer to the original data source for information about licensing and usage restrictions.
 
