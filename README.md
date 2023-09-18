@@ -19,12 +19,12 @@ The project is organized as follows:
   - **python.config**: Python configuration file for AWS Elastic Beanstalk (if applicable).
 - **LOGS**: Directory containing log files.
 - **artifacts**: Directory for storing project artifacts.
-- **.DS_Store**: macOS-specific file, can be ignored.
-- **model.pkl**: Saved machine learning model.
-- **preprocessor.pkl**: Saved data preprocessor (if applicable).
-- **raw_data.csv**: Raw dataset file.
-- **test.csv**: Test dataset file.
-- **train.csv**: Training dataset file.
+  - **.DS_Store**: macOS-specific file, can be ignored.
+  - **model.pkl**: Saved machine learning model.
+  - **preprocessor.pkl**: Saved data preprocessor (if applicable).
+  - **raw_data.csv**: Raw dataset file.
+  - **test.csv**: Test dataset file.
+  - **train.csv**: Training dataset file.
 - **notebook**: Directory containing Jupyter notebooks.
   - **EDA_Credit_Card.ipynb**: Notebook for exploratory data analysis.
 - **src**: Source code directory.
@@ -58,7 +58,7 @@ The project is organized as follows:
 1. **Clone the Repository:**
 
    ```bash
-   git clone (https://github.com/Ansh1999/credit_card_fault_detection.git)
+   git clone [https://github.com/Ansh1999/credit_card_fault_detection.git]
    cd credit-card-default-prediction
 
 2. **Install Dependencies:**
@@ -84,7 +84,7 @@ After building the machine learning model and preprocessing pipelines, we've cre
    pip install Flask
 
 2. **Create Flask Web App:**
-   Develop your Flask web application by creating routes, templates, and necessary logic. Refer to the application.py file and the templates/ directory in this repository for guidance.
+   Develop your Flask web application by creating routes, templates, and necessary logic. Refer to the ```application.py``` file and the ```templates/``` directory in this repository for guidance.
 
 3. **Configure AWS Elastic Beanstalk:**
    Set up an AWS Elastic Beanstalk environment and configure it according to your application's requirements.
@@ -102,7 +102,7 @@ You can use the deployed web application to make predictions on whether a credit
 Contributions to improve this project are welcome! Please follow common open-source practices and create a pull request with your proposed changes.
 
 ## Acknowledgments
-* The dataset was provided by Kaggle and can be found at (https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset).
+* The dataset was provided by Kaggle and can be found at [https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset].
 * We acknowledge the UCI Machine Learning Repository for hosting and curating the dataset.
 * Please refer to the original data source for information about licensing and usage restrictions.
 
