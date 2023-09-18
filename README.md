@@ -50,7 +50,11 @@ The project is organized as follows:
   - **index.html**: Index page template.
   - **result.html**: Result page template.
 - **.gitignore**: Gitignore file to specify ignored files and directories.
+- **CREDIT CARD DEFAULT PREDICTION.pdf**: Detailed Project Report(DPR).
 - **Dockerfile**: Docker configuration file (if applicable).
+- **HLD_CREDIT_CARD.pdf**: High Level Document
+- **LLD_CREDIT_CARD.pdf**: Low Level Document
+- **Wireframe_doc-Credit_Card.pdf**: Wireframe Document
 - **README.md**: This file, providing an overview of the project.
 - **application.py**: Python script for running the application.
 - **requirements.txt**: Lists the Python packages and versions required to run the project.
