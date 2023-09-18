@@ -59,10 +59,10 @@ The project is organized as follows:
 ## Getting Started
 1. **Clone the Repository:**
 
-   ```bash
+   ```
    git clone [https://github.com/Ansh1999/credit_card_fault_detection.git](https://github.com/Ansh1999/credit_card_fault_detection.git)
    cd credit-card-default-prediction
-
+   ```
 2. **Install Dependencies:**
 
    ```pip install -r requirements.txt```
